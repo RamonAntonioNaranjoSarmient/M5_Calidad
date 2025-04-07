@@ -85,8 +85,6 @@ describe('triangleType', () => {
 
   // Pruebas adicionales para TypeScript
   describe('TypeScript specific tests', () => {
-    // Nota: Estas pruebas requieren que el código sea compilado con TypeScript
-    // para verificar los tipos, pero Jest ejecutará el código compilado
     
     test('Floating point side lengths', () => {
       expect(triangleType(2.5, 2.5, 3.0)).toBe('Isosceles');
